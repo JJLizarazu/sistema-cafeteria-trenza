@@ -14,7 +14,7 @@ class PosTrenzaApp extends StatelessWidget {
     return MaterialApp(
       title: 'POS Trenza Café',
       theme: ThemeData(
-        // Colores de la cafetería (puedes cambiarlos luego)
+        // Colores de la cafetería
         primarySwatch: Colors.brown,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
