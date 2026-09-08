@@ -34,10 +34,9 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  // Función simulada (pronto la conectaremos a tu API)
+  // Función simulada
   void _validarPin() {
     print('Intentando hacer login con el PIN: $pinIngresado');
-    // Para probar visualmente, mostraremos un mensajito abajo
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Validando PIN: $pinIngresado...')),
     );
